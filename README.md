@@ -46,7 +46,7 @@ If you want to run, modify the code, or **compile your own version of the execut
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/OsHK00/Silksong-Mod-Manager.git](https://github.com/OsHK00/Silksong-Mod-Manager.git)
+    git clone https://github.com/OsHK00/Silksong-Mod-Manager.git
     cd Silksong-Mod-Manager
     ```
 2.  **Install dependencies:** (Requires Python 3.x)
