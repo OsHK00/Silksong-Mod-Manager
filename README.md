@@ -1,39 +1,40 @@
 # 🦋 Silksong Mod Manager (BepInEx)
 
-Un gestor de mods ligero y moderno para Hollow Knight: Silksong Desarrollado en Python con CustomTkinter.
+A lightweight and modern mod manager for Hollow Knight: Silksong, built with Python and CustomTkinter.
 
-## Características
+## Features
 
-* **Diseño Oscuro:** Interfaz limpia y moderna usando CustomTkinter.
-* **Activación/Desactivación Rápida:** Mueve los mods entre las carpetas `plugins/` y `disableds/`.
-* **Organización Automática:** Los archivos DLL sueltos se envuelven automáticamente en una carpeta al activarse/desactivarse.
-* **Búsqueda Rápida:** Filtrado de mods en tiempo real para listas grandes.
-* **Portable:** Distribución como un solo archivo ejecutable (`.exe`).
+* **Dark Design:** Clean and modern interface using CustomTkinter.
+* **Quick Enable/Disable:** Instantly move mods between the `plugins/` and `disableds/` folders.
+* **Automatic Organization:** Loose DLL files are automatically wrapped into a folder when enabled or disabled.
+* **Fast Search:** Real-time mod filtering for large mod lists.
+* **Portable:** Distributed as a single executable file (`.exe`).
 
-## Descarga y Uso
+## Download & Usage
 
-La forma más sencilla es descargar el ejecutable listo para usar desde la pestaña **[Releases]**.
+The easiest way to get started is to download the ready-to-use executable from the **[Releases]** tab.
 
-### Ejecutable para Windows (.exe)
+### Windows Executable (.exe)
 
-1.  Ve a la pestaña [Releases] en este repositorio.
-2.  Descarga el archivo `SilksongModManager.exe` bajo el último *release*.
-3.  Ejecuta el `.exe` y establece tu ruta base de `BepInEx`.
+1. Go to the **[Releases]** tab in this repository.  
+2. Download the file `SilksongModManager.exe` under the latest *release*.  
+3. Run the `.exe` and set your base `BepInEx` path.  
 
-## Para Desarrolladores (Ejecutar desde el código fuente)
+## For Developers (Run from Source)
 
-Si deseas ejecutar o modificar el código, sigue estos pasos:
+If you want to run or modify the code, follow these steps:
 
-1.  **Clonar el repositorio:**
+1. **Clone the repository:**
     ```bash
-    git clone [https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories](https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories)
-    cd SilksongModManager
+    git clone https://github.com/OsHK00/Silksong-Mod-Manager.git
+    cd Silksong-Mod-Manager
     ```
-2.  **Instalar dependencias:** (Necesitas Python 3.x)
+2. **Install dependencies:** (Requires Python 3.x)
     ```bash
     pip install -r requirements.txt
     ```
-3.  **Ejecutar:**
+3. **Run:**
     ```bash
     python mod_manager_gui.py
     ```
+
