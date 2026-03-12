@@ -1,12 +1,12 @@
-# 🦋 Silksong Mod Manager (BepInEx)
+# Silksong Mod Manager (BepInEx)
 
 A lightweight and modern mod manager for Hollow Knight: Silksong (and other BepInEx games), built with Python and CustomTkinter.
 
 ---
 
-## 🛡️ Antivirus Warning (False Positive)
+## Antivirus Warning (False Positive)
 
-🚨 **Your antivirus software may flag the executable (`.exe`) as suspicious or malicious.**
+**Your antivirus software may flag the executable (`.exe`) as suspicious or malicious.**
 
 This is almost always a **False Positive** caused by the packing process (`--onefile`) used by PyInstaller. The generic or heuristic analysis engines in some antivirus programs mistake the way the executable unpacks binaries into memory for common malware behavior.
 
@@ -18,7 +18,7 @@ For your peace of mind:
 
 ---
 
-## ✨ Features
+## Features
 
 * **Dark Design:** Clean and modern interface using CustomTkinter.
 * **Quick Enable/Disable:** Instantly move mods between the `plugins/` and `disableds/` folders.
@@ -40,7 +40,7 @@ The easiest way to get started is to download the ready-to-use executable from t
 
 ---
 
-## ⚙️ For Developers (Run from Source)
+## For Developers (Run from Source)
 
 If you want to run, modify the code, or **compile your own version of the executable**, follow these steps:
 
